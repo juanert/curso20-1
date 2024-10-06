@@ -1,0 +1,13 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px 20px;
+}
+header > div > img {
+    width: 80%;
+}
+
+.izquierda {
+    display: flex;
+    flex-direction: column;
+}

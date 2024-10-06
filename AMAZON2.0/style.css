@@ -1,0 +1,507 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+header {
+    background-color: rgb(19, 25, 33);
+    height: 60px;
+    color: #fff;
+}
+
+/****Distribucion****/
+
+.contenedor {
+    /*background-color: red;*/
+    height: 100%;
+    margin: auto;
+    width: 99%;
+    
+}
+
+.contenedor-flex {
+    display: flex;
+    align-items: center;
+}
+
+
+/****Hover****/
+
+.border-hover {
+    padding: 5px;
+    border: 1.5px solid transparent;
+}
+
+.border-hover:hover {
+    cursor: pointer;
+    outline: 1.5px solid #ffffff;
+}
+
+/****Logo****/
+
+.contenedor-logo {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    margin-left: 5px;
+    /*background-color: blue;*/
+}
+
+.logo-amazon {
+    height: 80%;
+}
+
+.punto-es {
+    position: relative;
+    margin-left: 3px;
+    margin-top: -12px;
+}
+
+/****Direccion****/
+
+.contenedor-direccion {
+    /*background-color: blue;*/
+    margin-left: 10px;
+}
+
+.contenedor-direccion p {
+    margin: 0;
+}
+
+.enviar p {
+    margin-left: 16px;
+    font-size: 0.8rem;
+}
+
+.icon-map {
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    font-weight: 700;    
+}
+
+.map {
+    margin-right: 5px;
+}
+
+/****Busqueda****/
+
+.contenedor-busqueda {
+    /*background-color: yellow;*/
+    margin-left: 20px;
+    width: 620px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.contenedor-busqueda:hover {
+    outline: 3px solid rgb(252, 171, 31);
+}
+
+.busqueda-seleccion {
+    width: 350px;
+    border: none;
+    padding: 5px;
+    background-color: #f7f3f3;
+}
+
+.input-busqueda {
+    width: 100%;
+    height: 95%;
+    border: none;
+    outline: none;
+    margin-top: 1px;
+    padding: 3px 3px 3px 8px;
+    font-size: 0.8rem;
+}
+
+.icon-lupa {
+    width: 90px;
+    margin-top: 1px;
+    height: 95%;
+    background-color: rgb(241, 168, 104);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #000;
+}
+
+/****Lenguaje****/
+
+.contenedor-lenguaje {
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+    padding-top: 15px;
+}
+
+.contenedor-lenguaje p {
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.icon-bandera {
+    width: 28px;
+}
+
+.icon-bandera img {
+    width: 100%;
+}
+
+/****Usuario****/
+
+.contenedor-usuario {
+    /*background-color: blue;*/
+    margin-left: 15px;
+}
+
+.contenedor-usuario p {
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.usuario {
+    font-weight: 900;
+}
+
+/****Reembolso****/
+
+.contenedor-reembolso {
+    margin-left: 15px;
+    /*background-color: blue;*/
+}
+
+.contenedor-reembolso p{
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.reembolso p {
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+/****Carrito****/
+
+.contenedor-carrito {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    margin-bottom: 5px;
+    gap: 5px;
+}
+
+.contenedor-carrito i {
+    font-size: 30px;
+}
+
+.contenedor-carrito p {
+    font-weight: 700;
+}
+
+/****Navegacion****/
+
+nav {
+    height: 40px;
+    background-color: #232f3e;
+    margin: 0;
+}
+
+.contenedor-lista{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-lista ul {
+    /*background-color: red;*/
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    color: #fff;
+    margin-left: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0.9rem;
+    font-weight: 900;
+    height: 100%;
+    width: 100%;
+}
+
+.contenedor-lista ul li p {
+    font-weight: 900;
+    text-align: right;
+    margin-left: 55px;
+    width: 450px;
+    justify-content: end;
+    font-size: 1rem;
+    padding: 5px;
+    border: 1.5px solid transparent;
+}
+
+.contenedor-lista ul li p:hover {
+    cursor: pointer;
+    border: 1.5px solid #ffffff;
+}
+
+/****Main
+main{
+    background-color: #f3bdbd;
+}*/
+
+/****SideBar****/
+
+main {
+    background: rgb(255,255,255);
+    background: linear-gradient(3deg, rgb(238, 235, 235) 0%, rgba(255,255,255,1) 3%, rgba(20, 67, 223, 0.986) 52%);
+}
+
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://m.media-amazon.com/images/I/71PyxfHk25L._SX3000_.jpg);
+    background-size: 120%;
+    background-repeat: no-repeat;
+}
+
+.boton-prime {
+    display: flex;
+    justify-content: center;
+    padding-right: 410px;
+    padding-top: 100px;
+    /*background-color: red;*/
+    align-items: center;
+    height: 250px;
+}
+
+.boton-prime button {
+    background: yellow;
+    border-radius: 15px;
+    border: none;
+    height: 35px;
+    color: #7c725b;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.tarjetas-productos {
+    display: grid;
+    text-align: center;
+    justify-content: space-between;
+    grid-template-columns: 22% 22% 22% 22%;
+    padding: 0px 18px 0 18px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.productos {
+    background-color: white;
+    height: 400px;
+    margin-top: 15px;
+    
+}
+
+.img-producto {
+    display: flex;
+    justify-content: center;
+}
+
+.img-producto img {
+    height: 250px;
+    width: 250px;
+}
+
+.productos h2 {
+    font-size: 21px;
+}
+
+.tarjetas-productos a {
+    display: flex;
+    justify-content: left;
+    padding: 25px 0px 10px 20px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #007185;
+    text-decoration: none;
+    
+}
+
+.tarjetas-productos a:hover {
+    color: orange;
+}
+
+/****Ofertas Flash****/
+
+.ofertas-dispositivos {
+    height: 380px;
+    background-color: #0073e6;
+    margin: 15px;
+    padding: 1px 10px 5px 10px;
+    color: white;
+}
+
+.contenedor-dispositivos {
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-dispositivos h2 {
+    font-size: 20px;
+    margin-left: 8px;
+}
+
+.ofertas-flash {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.ofertas-flash img {
+    padding: 5px;
+    margin-left: 2px;
+    border-radius: 10px;
+    height: 313px;
+    cursor: pointer;
+}
+
+/****Italianos****/
+
+.italianos {
+    background-color: white;
+    height: 265px;
+    margin: 0 15px 0 15px;
+}
+
+.contenedor-italianos {
+    display: flex;
+    flex-direction: column;
+    /*background-color: aquamarine;*/
+}
+
+.contenedor-italianos h2 {
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.contenedor-italianos h2 a {
+    text-decoration: none;
+    color: #007185;
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+.italianos-productos {
+    /*background-color: red;*/
+    height: 100%;
+    display: flex;
+}
+
+.imagenes-italiano {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding-left: 6px;
+}
+
+.imagenes-italiano img {
+    cursor: pointer;
+}
+
+/****Categorias****/
+
+.categorias-one {
+    height: 320px;
+    margin: 15px 15px 0 15px;
+    /*background-color: #007185;*/
+}
+
+.contenedor-categorias {
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    height: 100%;
+    gap: 18px;
+
+}
+
+.contenedor-categorias h2 {
+    margin-left: 5px;
+    font-size: 23px;    
+}
+
+.one-cat {
+    padding: 15px 10px 10px 10px;
+    background-color: white;
+}
+
+.two-cat {
+    padding: 15px 10px 10px 10px;
+    background-color: white;
+}
+
+.three-cat {
+    padding: 15px 10px 10px 10px;
+    background-color: white;
+}
+
+.four-cat {
+    padding: 15px 10px 10px 10px;
+    background-color: white;
+}
+
+/****Dimensiones de categorias****/
+.cat {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.cat img{
+    width: 100%;
+    padding: 5px;
+    height: 130px
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.titulo a {
+    text-decoration: none;
+    font-size: 12px;
+    margin: 0 0 25px 5px;
+    color: #000;
+}
+
+.ver-mas {
+    font-size: 13px;
+    text-decoration: none;
+    color: #007185;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.ver-mas:hover {
+    color: orange;
+}
+
+
+
+
+
+
