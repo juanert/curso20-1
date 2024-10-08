@@ -630,7 +630,7 @@ main {
 
 .job-country {
     background-color: #232f3e;
-    height: 210px;
+    height: 180px;
 }
 
 .contenedor-job {
@@ -643,7 +643,7 @@ main {
 }
 
 .contenedor-job img {
-    height: 30px;
+    height: 20px;
     width: auto;
 }
 
