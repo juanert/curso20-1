@@ -699,6 +699,10 @@ main {
     font-size: 12px;
 }
 
+.articulos a:hover {
+    text-decoration: underline;
+}
+
 .articulos a span {
     font-weight: 200;
 }
@@ -736,6 +740,10 @@ main {
     font-size: 12px;
     padding: 0 6px;
     font-weight: 500;
+}
+
+.columnas-final a:hover {
+    text-decoration: underline;
 }
 
 .copy {
