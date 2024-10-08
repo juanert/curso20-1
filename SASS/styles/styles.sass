@@ -1,0 +1,28 @@
+/*
+    Primer comentario
+
+@mixin columna ($horizontal, $vertical)
+    display: flex  
+    flex-direction: column
+    justify-content: $horizontal
+    align-items: $vertical
+    
+
+$base-color: blue
+
+* 
+    margin: 0
+    padding: 0
+
+#inicial
+    color: $base-color
+    p
+        background-color: red
+
+.columna-centrada 
+    @include columna(center, center)
+    
+.columna-top
+    @include columna(center, flex)
+    height: 20vh
+    

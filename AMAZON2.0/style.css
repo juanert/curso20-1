@@ -69,6 +69,7 @@ header {
 .contenedor-direccion {
     /*background-color: blue;*/
     margin-left: 10px;
+    width: 85.6px;
 }
 
 .contenedor-direccion p {
@@ -259,16 +260,17 @@ nav {
     border: 1.5px solid #ffffff;
 }
 
-/****Main
+/****Main****/
+
 main{
     background-color: #f3bdbd;
-}*/
+}
 
 /****SideBar****/
 
 main {
     background: rgb(255,255,255);
-    background: linear-gradient(3deg, rgb(238, 235, 235) 0%, rgba(255,255,255,1) 3%, rgba(20, 67, 223, 0.986) 52%);
+    background: linear-gradient(3deg, rgb(236, 232, 232) 0%, rgb(243, 237, 237) 3%, rgba(20, 67, 223, 0.986) 52%);
 }
 
 .side-bar {
@@ -290,7 +292,7 @@ main {
 }
 
 .boton-prime button {
-    background: yellow;
+    background: rgb(241, 215, 66);
     border-radius: 15px;
     border: none;
     height: 35px;
@@ -315,6 +317,12 @@ main {
     height: 400px;
     margin-top: 15px;
     
+}
+
+.productos h2 {
+    text-align: left;
+    margin-left: 8px;
+    font-size: 15px;
 }
 
 .img-producto {
@@ -426,13 +434,13 @@ main {
 
 .categorias-one {
     height: 320px;
-    margin: 15px 15px 0 15px;
+    margin: 15px 15px 145px 15px;
     /*background-color: #007185;*/
 }
 
 .contenedor-categorias {
     display: grid;
-    grid-template-columns: 24% 24% 24% 24%;
+    grid-template-columns: 24% 23.8% 24% 24%;
     height: 100%;
     gap: 18px;
 
@@ -500,6 +508,242 @@ main {
     color: orange;
 }
 
+/****Armario****/
+
+.armario {
+    background-color: white;
+    height: 265px;
+    margin: 0 15px 0 15px;
+}
+
+/****Registro****/
+
+.registro {
+    height: 155px;
+    /*background-color: red;*/
+}
+
+.contenedor-registro {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.registro-linea {
+    background-color: white;
+    height: 20px;
+}
+
+.registro-boton {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registro-boton p {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.registro-boton button {
+    width: 230px;
+    height: 28px;
+    justify-content: center;
+    background: rgb(241, 215, 66);
+    border-radius: 5px;
+    border: none;
+    color: #000000;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/****Volver arriba****/
+
+.back-home {
+    height: 50px;
+    background-color: #37475A;
+}
+
+.back-home:hover {
+    filter: brightness(120%);
+}
+
+.contenedor-back {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 18px;
+    cursor: pointer;
+}
+
+.contenedor-back a button {
+    border: none;
+    background-color: #37475A;
+    color: white;
+    cursor: pointer;
+}
+
+/****Footer****/
+
+.columnas {
+    background-color: #232F3E;
+}
+
+.contenedor-columnas {
+    display: grid;
+    grid-template-columns: 10% 30% 27% 18%;
+    padding: 30px 150px;
+    gap: 30px;
+}
+
+.columna-footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+}
+
+.list-titulo {
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.columna-footer ul li {
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.columna-footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.columna-footer ul li a:hover {
+    text-decoration: underline;
+
+}
+
+/****Job****/
+
+.job-country {
+    background-color: #232f3e;
+    height: 210px;
+}
+
+.contenedor-job {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+    margin: 1px 152px 10px 152px;
+}
+
+.contenedor-job img {
+    height: 30px;
+    width: auto;
+}
+
+.countrys{
+    display: flex;
+    flex-direction: row;
+}
+
+.countrys ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    max-width: 750px;
+}
+
+.countrys ul li a {
+    display: flex;
+    color: #ddd;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 5px 6px;
+    font-weight: 500;
+}
+
+.countrys ul li a:hover {
+    text-decoration: underline;
+}
+
+/***Columna bottom***/
+
+.columnas-bottom {
+    background-color: #131A22;
+    height: 200px;
+}
+
+.contenedor-bottom {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content: center;
+    padding: 50px 0 0 0;
+}
+
+.articulos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.articulos a {
+    text-decoration: none;
+    color: #ddd;
+    font-size: 12px;
+}
+
+.articulos a span {
+    font-weight: 200;
+}
+
+/****Final****/
+
+.final {
+    background-color: #131A22;
+    margin-top: -20px;
+}
+
+.seccion-final {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.columnas-final {
+    display: flex;
+    flex-direction: row;
+}
+
+.columnas-final ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    max-width: 750px;
+}
+
+.columnas-final ul li a {
+    display: flex;
+    color: #ddd;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 0 6px;
+    font-weight: 500;
+}
+
+.copy {
+    color: #ddd;
+    font-size: 12px;
+    margin-top: -20px;
+    padding-bottom: 20px;
+}
 
 
 
